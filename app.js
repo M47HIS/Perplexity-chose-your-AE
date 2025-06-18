@@ -13,8 +13,8 @@ const salesData = [
     {
         "id": 2,
         "nom": "Philippe",
-        "taille_deal": "500+",
-        "taille_deal_min": 500,
+        "taille_deal": "1000+",
+        "taille_deal_min": 1000,
         "taille_deal_max": 999999,
         "langues": ["FR", "EN"],
         "nombre_demos": 3,
@@ -23,8 +23,8 @@ const salesData = [
     {
         "id": 3,
         "nom": "Martin",
-        "taille_deal": "100 à 500",
-        "taille_deal_min": 100,
+        "taille_deal": "250 à 500+",
+        "taille_deal_min": 250,
         "taille_deal_max": 500,
         "langues": ["FR", "EN"],
         "nombre_demos": 8,
@@ -57,7 +57,7 @@ const salesData = [
         "taille_deal_min": 5,
         "taille_deal_max": 100,
         "langues": ["FR", "EN"],
-        "nombre_demos": 0,
+        "nombre_demos": 12,
         "points_specifiques": ""
     },
     {
@@ -87,7 +87,7 @@ const salesData = [
         "taille_deal_min": 1,
         "taille_deal_max": 100,
         "langues": ["EN"],
-        "nombre_demos": 0,
+        "nombre_demos": 12,
         "points_specifiques": "Priorité deals EN (1-200)"
     },
     {
@@ -97,8 +97,8 @@ const salesData = [
         "taille_deal_min": 5,
         "taille_deal_max": 50,
         "langues": ["FR", "EN", "NL"],
-        "nombre_demos": 0,
-        "points_specifiques": ""
+        "nombre_demos": 12,
+        "points_specifiques": "Priorité deals NL"
     },
     {
         "id": 11,
@@ -107,7 +107,7 @@ const salesData = [
         "taille_deal_min": 1,
         "taille_deal_max": 5,
         "langues": ["FR", "EN"],
-        "nombre_demos": 0,
+        "nombre_demos": 12,
         "points_specifiques": "Temporaire"
     },
     {
