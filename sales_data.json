@@ -1,0 +1,186 @@
+[
+  {
+    "id": 1,
+    "nom": "Matthieu",
+    "taille_deal": "1000+",
+    "taille_deal_min": 1000,
+    "taille_deal_max": 999999,
+    "langues": [
+      "FR",
+      "EN"
+    ],
+    "nombre_demos": 3,
+    "points_specifiques": ""
+  },
+  {
+    "id": 2,
+    "nom": "Philippe",
+    "taille_deal": "500+",
+    "taille_deal_min": 500,
+    "taille_deal_max": 999999,
+    "langues": [
+      "FR",
+      "EN"
+    ],
+    "nombre_demos": 3,
+    "points_specifiques": ""
+  },
+  {
+    "id": 3,
+    "nom": "Martin",
+    "taille_deal": "100 à 500",
+    "taille_deal_min": 100,
+    "taille_deal_max": 500,
+    "langues": [
+      "FR",
+      "EN"
+    ],
+    "nombre_demos": 8,
+    "points_specifiques": ""
+  },
+  {
+    "id": 4,
+    "nom": "Sophie",
+    "taille_deal": "100 à 500",
+    "taille_deal_min": 100,
+    "taille_deal_max": 500,
+    "langues": [
+      "FR",
+      "EN",
+      "NL"
+    ],
+    "nombre_demos": 8,
+    "points_specifiques": ""
+  },
+  {
+    "id": 5,
+    "nom": "BK",
+    "taille_deal": "100 à 500",
+    "taille_deal_min": 100,
+    "taille_deal_max": 500,
+    "langues": [
+      "FR",
+      "EN"
+    ],
+    "nombre_demos": 8,
+    "points_specifiques": ""
+  },
+  {
+    "id": 6,
+    "nom": "Paul G.",
+    "taille_deal": "5 à 100",
+    "taille_deal_min": 5,
+    "taille_deal_max": 100,
+    "langues": [
+      "FR",
+      "EN"
+    ],
+    "nombre_demos": 0,
+    "points_specifiques": ""
+  },
+  {
+    "id": 7,
+    "nom": "Maria",
+    "taille_deal": "5 à 100",
+    "taille_deal_min": 5,
+    "taille_deal_max": 100,
+    "langues": [
+      "FR",
+      "EN",
+      "ES"
+    ],
+    "nombre_demos": 12,
+    "points_specifiques": ""
+  },
+  {
+    "id": 8,
+    "nom": "PA",
+    "taille_deal": "5 à 100",
+    "taille_deal_min": 5,
+    "taille_deal_max": 100,
+    "langues": [
+      "FR",
+      "EN"
+    ],
+    "nombre_demos": 12,
+    "points_specifiques": ""
+  },
+  {
+    "id": 9,
+    "nom": "Christabel",
+    "taille_deal": "1 à 100",
+    "taille_deal_min": 1,
+    "taille_deal_max": 100,
+    "langues": [
+      "EN"
+    ],
+    "nombre_demos": 0,
+    "points_specifiques": "Priorité deals EN (1-200)"
+  },
+  {
+    "id": 10,
+    "nom": "Julien",
+    "taille_deal": "5 à 50",
+    "taille_deal_min": 5,
+    "taille_deal_max": 50,
+    "langues": [
+      "FR",
+      "EN",
+      "NL"
+    ],
+    "nombre_demos": 0,
+    "points_specifiques": ""
+  },
+  {
+    "id": 11,
+    "nom": "Louis",
+    "taille_deal": "1 à 5",
+    "taille_deal_min": 1,
+    "taille_deal_max": 5,
+    "langues": [
+      "FR",
+      "EN"
+    ],
+    "nombre_demos": 0,
+    "points_specifiques": "Temporaire"
+  },
+  {
+    "id": 12,
+    "nom": "Faustine",
+    "taille_deal": "1 à 10",
+    "taille_deal_min": 1,
+    "taille_deal_max": 10,
+    "langues": [
+      "FR",
+      "EN"
+    ],
+    "nombre_demos": 5,
+    "points_specifiques": "Matin"
+  },
+  {
+    "id": 13,
+    "nom": "Paul",
+    "taille_deal": "1 à 5",
+    "taille_deal_min": 1,
+    "taille_deal_max": 5,
+    "langues": [
+      "FR",
+      "EN"
+    ],
+    "nombre_demos": 5,
+    "points_specifiques": "Après-midi"
+  },
+  {
+    "id": 14,
+    "nom": "Clément",
+    "taille_deal": "1 à 5",
+    "taille_deal_min": 1,
+    "taille_deal_max": 5,
+    "langues": [
+      "FR",
+      "EN"
+    ],
+    "nombre_demos": 5,
+    "points_specifiques": "Après-midi"
+  }
+]

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quel AE choisir selon le deal ?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="header__title">🤔 Quel AE choisir selon le deal ?</h1>
+            <p class="header__description">
+                Tu es SDR et tu ne sais pas qui choisir pour ton client ? Pas de panique, ce tableau devrait t'aider.
+            </p>
+            
+            <!-- Légende des tailles de deals -->
+            <div class="deal-legend">
+                <h3>Tailles de deals :</h3>
+                <div class="deal-legend__items">
+                    <div class="deal-legend__item" data-category="small">
+                        <span class="deal-legend__color deal-legend__color--small"></span>
+                        <span class="deal-legend__text">1 à 5</span>
+                    </div>
+                    <div class="deal-legend__item" data-category="medium">
+                        <span class="deal-legend__color deal-legend__color--medium"></span>
+                        <span class="deal-legend__text">5 à 100</span>
+                    </div>
+                    <div class="deal-legend__item" data-category="large">
+                        <span class="deal-legend__color deal-legend__color--large"></span>
+                        <span class="deal-legend__text">100 à 500</span>
+                    </div>
+                    <div class="deal-legend__item" data-category="xlarge">
+                        <span class="deal-legend__color deal-legend__color--xlarge"></span>
+                        <span class="deal-legend__text">500+</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Filtres -->
+        <div class="filters">
+            <div class="filters__row">
+                <div class="form-group">
+                    <label class="form-label">Taille de deal</label>
+                    <select id="dealSizeFilter" class="form-control">
+                        <option value="">Toutes les tailles</option>
+                        <option value="1-5">1 à 5</option>
+                        <option value="5-100">5 à 100</option>
+                        <option value="100-500">100 à 500</option>
+                        <option value="500+">500+</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Langues</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="lang-FR" value="FR">
+                            <span>FR</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="lang-EN" value="EN">
+                            <span>EN</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="lang-ES" value="ES">
+                            <span>ES</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="lang-NL" value="NL">
+                            <span>NL</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Recherche par nom</label>
+                    <input type="text" id="nameSearch" class="form-control" placeholder="Rechercher un AE...">
+                </div>
+
+                <div class="form-group">
+                    <button id="resetFilters" class="btn btn--secondary">Reset</button>
+                </div>
+            </div>
+
+            <div class="filters__results">
+                <span id="resultsCount" class="results-count">14 résultats</span>
+            </div>
+        </div>
+
+        <!-- Recommandation -->
+        <div id="recommendation" class="recommendation card hidden">
+            <div class="card__body">
+                <h3>💡 Recommandation</h3>
+                <p id="recommendationText"></p>
+            </div>
+        </div>
+
+        <!-- Tableau -->
+        <div class="table-container">
+            <table class="ae-table">
+                <thead>
+                    <tr>
+                        <th class="sortable" data-column="nom">
+                            Nom de l'AE
+                            <span class="sort-indicator"></span>
+                        </th>
+                        <th class="sortable" data-column="taille_deal">
+                            Taille de deal
+                            <span class="sort-indicator"></span>
+                        </th>
+                        <th class="sortable" data-column="langues">
+                            Langues
+                            <span class="sort-indicator"></span>
+                        </th>
+                        <th class="sortable" data-column="nombre_demos">
+                            Nombre de démos
+                            <span class="sort-indicator"></span>
+                        </th>
+                        <th>Points spécifiques</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Les données seront injectées ici par JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Message si aucun résultat -->
+        <div id="noResults" class="no-results hidden">
+            <p>Aucun AE ne correspond à vos critères. Essayez de modifier les filtres.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
