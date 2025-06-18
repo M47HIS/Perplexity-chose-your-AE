@@ -36,7 +36,7 @@ const salesData = [
         "taille_deal": "100 à 500",
         "taille_deal_min": 100,
         "taille_deal_max": 500,
-        "langues": ["FR", "EN", "NL"],
+        "langues": ["FR", "EN"],
         "nombre_demos": 8,
         "points_specifiques": ""
     },
